@@ -2,6 +2,7 @@ package fr.burstyx.burstyxm;
 
 import com.mojang.logging.LogUtils;
 
+import fr.burstyx.burstyxm.block.ModBlocks;
 import fr.burstyx.burstyxm.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -21,6 +22,7 @@ public class Burstyxm {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

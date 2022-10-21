@@ -2,5 +2,9 @@
   "item.burstyxm.zircon": "Zircon",
   "item.burstyxm.raw_zircon": "Raw Zircon",
 
+  "block.burstyxm.zircon_block": "Zircon Block",
+  "block.burstyxm.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.burstyxm.zircon_ore": "Zircon Ore",
+
   "itemGroup.burstyxtab": "Zircon Tab"
 }
